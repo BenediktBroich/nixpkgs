@@ -18740,6 +18740,8 @@ with pkgs;
 
   collada-dom = callPackage ../development/libraries/collada-dom { };
 
+  collision = callPackage ../applications/misc/collision { };
+
   cog = callPackage ../development/web/cog { };
 
   cosmoc = callPackage ../development/tools/cosmoc { };
